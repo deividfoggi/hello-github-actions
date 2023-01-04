@@ -2,3 +2,6 @@ name: Post welcome comment
 on:
   pull_request:
     types: [opened]
+jobs:
+  build: POst welcome comment
+  runs-on: ubuntu-latest
